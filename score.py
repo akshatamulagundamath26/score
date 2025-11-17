@@ -1,12 +1,12 @@
 import sys
-if len(sys.argv) == 2:
-script_name = sys.argv[0]
-string = sys.argv[1]
-else:
-script_name = sys.argv[0]
-string = "madam"
-print("Invalid input using default values")
-if string == string[::-1]:
-print(string, "is a palindrome")
-else:
-print(string, "is not a palindrome")
+scores = [85, 90, 78, 92]
+if not all(isinstance (score, (int, float)) for score in scores):
+print("Error: All scores must be numeric.")
+sys.exit(1)
+total = sum(scores)
+average total / len(scores) if scores else None
+maximum = max(scores) if scores else None
+minimum = min(scores) if scores else None
+print(f"Total Score: {total}")
+print(f"Average Score: (average:.2f}")
+print(f"Maximum Score: {maximum}")
