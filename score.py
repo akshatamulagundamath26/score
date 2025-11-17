@@ -8,5 +8,5 @@ average total / len(scores) if scores else None
 maximum = max(scores) if scores else None
 minimum = min(scores) if scores else None
 print(f"Total Score: {total}")
-print(f"Average Score: (average:.2f}")
+print(f"Average Score: {average:.2f}")
 print(f"Maximum Score: {maximum}")
