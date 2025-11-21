@@ -8,7 +8,7 @@ if len(sys.argv) > 1:
     scores = [float(x) for x in scores]
 else:
     # Default values when no command-line input is given
-    scores = [50, 60, 70, 80, 90]
+    scores = [85,90,78,95]
     print("No input given, using default scores:", scores)
 
 # Calculate total and average
